@@ -69,6 +69,7 @@ A subgroup audit using DeepFace reveals **severe accuracy disparities** across r
 │   ├── README.md                      # Explains the studies and their findings
 │   ├── children_tabular_xgboost.ipynb # XGBoost on children/adolescent ASD screening
 │   ├── toddlers_tabular_xgboost.ipynb # XGBoost on toddler screening (12-36 months)
+│   ├── dataset_audit_gender_classification.ipynb # Classifies Dataset Audit Gender
 │   ├── figures/                       # SHAP visualisations
 │   └── results/                       # Per-study CSVs
 ├── requirements.txt
