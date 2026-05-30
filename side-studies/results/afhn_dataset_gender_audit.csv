@@ -1,0 +1,7 @@
+split,class,female_count,male_count,total,pct_female
+Train,Autistic,456,812,1268,35.96
+Train,Typical,743,525,1268,58.60
+Valid,Autistic,19,31,50,38.00
+Valid,Typical,36,14,50,72.00
+Test,Autistic,56,94,150,37.33
+Test,Typical,96,54,150,64.00
