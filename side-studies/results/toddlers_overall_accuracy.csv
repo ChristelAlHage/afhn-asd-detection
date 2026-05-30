@@ -1,0 +1,4 @@
+metric,value,note
+overall_accuracy,0.46,Below binary chance; interpreted via SHAP as a faithful reflection of developmental ambiguity at 12-18 months
+model,XGBoost,scale_pos_weight set for class imbalance
+n_total,~1000,Toddlers aged 12-36 months

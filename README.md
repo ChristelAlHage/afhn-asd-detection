@@ -1,4 +1,4 @@
-# AFHN: Attention-Fusion Hybrid Network for Explainable ASD Detection
+# Attention-Fusion Hybrid Network (AFHN) for Autism Spectrum Disorder Detection in Children
 
 > A deep learning model for detecting Autism Spectrum Disorder (ASD) from children's facial images, with a focus on rigorous explainability evaluation and demographic fairness auditing.
 
@@ -65,13 +65,18 @@ A subgroup audit using DeepFace reveals **severe accuracy disparities** across r
 │   ├── xai_shap_by_region.csv         # Per-region SHAP attribution
 │   └── hp_search.csv                  # Hyperparameter sensitivity
 ├── figures/                            # Visualizations from the notebook
-├── report/                             # LaTeX paper (IEEE 2-column format)
-│   ├── AFHN_Report.tex
-│   └── figures/
+├── side-studies/                       # Cross-modal validation on tabular data
+│   ├── README.md                      # Explains the studies and their findings
+│   ├── children_tabular_xgboost.ipynb # XGBoost on children/adolescent ASD screening
+│   ├── toddlers_tabular_xgboost.ipynb # XGBoost on toddler screening (12-36 months)
+│   ├── figures/                       # SHAP visualisations
+│   └── results/                       # Per-study CSVs
 ├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
+
+> **About the side studies:** Two complementary studies on tabular behavioural datasets (using XGBoost + SHAP) triangulate the demographic findings from the main AFHN work. See [`side-studies/README.md`](side-studies/README.md) for details.
 
 ## 🚀 Quick Start
 
@@ -146,10 +151,10 @@ If you use this code or methodology in your work, please cite:
 
 ```bibtex
 @misc{afhn2026,
-  author       = {Your Name},
+  author       = {Christel Al Hage},
   title        = {AFHN: Attention-Fusion Hybrid Network for Explainable ASD Detection},
   year         = {2026},
-  howpublished = {\url{https://github.com/YOUR_USERNAME/afhn-asd-detection}},
+  howpublished = {\url{https://github.com/ChristelAlHage/afhn-asd-detection}},
 }
 ```
 

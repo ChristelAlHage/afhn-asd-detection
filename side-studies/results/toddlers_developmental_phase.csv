@@ -1,0 +1,4 @@
+phase,age_range_months,shap_impact_direction,interpretation
+Ambiguous,12-18,negative (median ~-0.2),Behaviours of NT and ASD toddlers overlap substantially; model lacks confidence
+Divergence,19-24,near-zero (centred),Diagnostic signals beginning to emerge but not yet stable
+Complex Social,25-36,wide spread (-1.0 to +1.5),Strong diagnostic signal; model can confidently predict either class

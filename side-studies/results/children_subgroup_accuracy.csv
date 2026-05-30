@@ -1,0 +1,6 @@
+subgroup,condition,accuracy,note
+overall,all subjects,0.879,"XGBoost, 80/20 stratified split"
+sex=female,pooled model,0.991,sex=top SHAP feature
+sex=male,pooled model,0.837,
+sex=female,female-only model,0.972,separate model trained only on girls
+sex=male,male-only model,0.848,separate model trained only on boys
