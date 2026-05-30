@@ -141,10 +141,6 @@ See [`requirements.txt`](requirements.txt) for the full pip-installable list. Th
 
 The notebook installs these automatically in its first cell, so most users won't need to touch `requirements.txt`.
 
-## 📄 Report / Paper
-
-A detailed IEEE-style report on the methodology and findings is available in [`report/AFHN_Report.tex`](report/AFHN_Report.tex). Compile with `pdflatex` or upload directly to Overleaf.
-
 ## 📚 Citation
 
 If you use this code or methodology in your work, please cite:
