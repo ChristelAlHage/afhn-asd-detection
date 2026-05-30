@@ -1,0 +1,2 @@
+backbone,mixup,recall_bias,tuned_threshold,test_accuracy_tta,test_precision_tta,test_recall_tta,test_f1_tta,test_auc_tta,cv_mean_accuracy,cv_std_accuracy,cv_mean_auc,cv_std_auc
+efficientnet-b0,True,1.5,0.25,0.8366666666666667,0.772972972972973,0.9533333333333334,0.8537313432835821,0.9177333333333333,0.7648000402507045,0.022742229580723437,0.8641612395123024,0.012909298177775396

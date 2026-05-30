@@ -1,0 +1,7 @@
+gru_units,l2_reg,lr_sched,val_loss,val_accuracy,val_auc
+256,0.0001,constant,0.4978,0.76,0.9072
+256,0.0005,constant,0.5201,0.77,0.9056
+64,0.0001,constant,0.5554,0.72,0.9008
+64,0.0001,constant,0.6849,0.72,0.8910
+256,0.0005,constant,0.5522,0.75,0.8910
+256,0.0010,constant,0.5681,0.74,0.8580

@@ -1,0 +1,11 @@
+attribute,group,n,accuracy,mean_autistic_prob
+age,18+,293,0.8328,0.4866
+age,12-17,7,1.0000,0.7071
+gender,Woman,105,0.8190,0.3813
+gender,Man,195,0.8462,0.5512
+race,indian,7,0.4286,0.6759
+race,asian,75,0.8267,0.4793
+race,white,179,0.8436,0.4843
+race,black,19,0.8947,0.4704
+race,latino hispanic,19,0.8947,0.5768
+race,middle eastern,1,1.0000,0.2639

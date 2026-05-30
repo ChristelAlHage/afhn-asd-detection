@@ -1,0 +1,5 @@
+method,metric,mean,std
+Grad-CAM,Deletion AUC (lower=better),0.5155,0.2168
+Grad-CAM,Insertion AUC (higher=better),0.7055,0.2290
+SHAP,Deletion AUC (lower=better),0.5985,0.2017
+SHAP,Insertion AUC (higher=better),0.7145,0.2015
