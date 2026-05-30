@@ -1,0 +1,103 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================================
+# Jupyter Notebook
+# =========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Stripped-output notebooks (if you use nbstripout)
+*.ipynb.bak
+
+# =========================================
+# Environment
+# =========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================
+# IDE
+# =========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================================
+# LaTeX (in case you compile locally)
+# =========================================
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdf  # Don't commit compiled PDFs — let Overleaf/CI build them
+
+# =========================================
+# Project-specific
+# =========================================
+
+# The actual training data — NEVER commit children's facial images
+ASD_Data.zip
+ASD_Data/
+ASD\ Data/
+ASD_Preprocessed/
+
+# Colab artifacts that shouldn't be in the repo
+/content/
+
+# Intermediate model checkpoints during training (only AFHN_final.keras is committed)
+afhn_stage1_best.keras
+afhn_final_best.keras
+
+# MediaPipe and Dlib model downloads (auto-downloaded by the notebook)
+face_landmarker.task
+shape_predictor_68_face_landmarks.dat
+
+# DeepFace cache
+.deepface/
